@@ -8,20 +8,11 @@ def substract(a, b):
 def multiply(a, b):
 	return a * b
 
-def divide_premium(a, b):
+def divide_new(a, b):
 	return a / b
 
 def square(a, b):
 	return a ** b
 
-def remainder(a, b):
-	return a // b
-
-def get_Median(a, b):
-	return (a + b) / 2
-
-def get_Abs(num):
-	if num >= 0:
-		return num
-	else:
-		return -num
+def get_Percent(a, b):
+	return (a / b) * 100
