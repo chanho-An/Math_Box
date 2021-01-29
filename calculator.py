@@ -13,3 +13,6 @@ def divide_premium(a, b):
 
 def square(a, b):
 	return a ** b
+
+def say_hello():
+	print("hello")
