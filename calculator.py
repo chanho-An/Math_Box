@@ -25,3 +25,7 @@ def get_Median(a, b):
 
 def test():
 	return None
+
+def get_Sum(n):
+	return n(n + 1) / 2
+
